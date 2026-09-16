@@ -1,15 +1,15 @@
 name,description,stars_today,hype_score,last_updated
-google/langextract,A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.,"1,654",2067,2026-02-11 11:01:38
-iOfficeAI/AionUi,"Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",629,786,2026-02-11 11:01:38
-KeygraphHQ/shannon,"Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.","3,619",4523,2026-02-11 11:01:38
-github/gh-aw,GitHub Agentic Workflows,496,620,2026-02-11 11:01:38
-EveryInc/compound-engineering-plugin,Official Claude Code compound engineering plugin,406,507,2026-02-11 11:01:38
-hsliuping/TradingAgents-CN,基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版,498,622,2026-02-11 11:01:38
-gitbutlerapp/gitbutler,"The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",260,325,2026-02-11 11:01:38
-carlvellotti/claude-code-pm-course,Interactive course teaching Product Managers how to use Claude Code effectively,24,30,2026-02-11 11:01:38
-Shubhamsaboo/awesome-llm-apps,"Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",443,553,2026-02-11 11:01:38
-drawdb-io/drawdb,"Free, simple, and intuitive online database diagram editor and SQL generator.",95,118,2026-02-11 11:01:38
-pydantic/monty,"A minimal, secure Python interpreter written in Rust for use by AI",858,1072,2026-02-11 11:01:38
-cheahjs/free-llm-api-resources,A list of free LLM inference resources accessible via API.,115,143,2026-02-11 11:01:38
-Jeffallan/claude-skills,66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.,45,56,2026-02-11 11:01:38
-virattt/dexter,An autonomous agent for deep financial research,757,946,2026-02-11 11:01:38
+alibaba/open-code-review,"Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.","2,756",3445,2026-09-16 14:31:39
+JustVugg/colibri,"Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦","2,026",2532,2026-09-16 14:31:39
+ever-co/ever-gauzy,Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co,634,792,2026-09-16 14:31:39
+debpalash/VoiceStudio,"VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.","2,072",2590,2026-09-16 14:31:39
+Homebrew/BrewUI,📺 Homebrew's official macOS GUI,271,338,2026-09-16 14:31:39
+melgarafael/DeskcommCRM,"Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",193,241,2026-09-16 14:31:39
+alphaXiv/OpenResearch,Turn your coding agents into research agents,531,663,2026-09-16 14:31:39
+NationalSecurityAgency/ghidra,Ghidra is a software reverse engineering (SRE) framework,725,906,2026-09-16 14:31:39
+danny-avila/LibreChat,"Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",254,317,2026-09-16 14:31:39
+pacifio/atlas,"Source control for agents. Use multiple coding agents, track their changes and query them in one place",91,113,2026-09-16 14:31:39
+MG1937/ASC,ASC is a super FAST Android decompiler front-end designed for Agents/Mobile Researchers.,129,161,2026-09-16 14:31:39
+addyosmani/agent-skills,Production-grade engineering skills for AI coding agents.,307,383,2026-09-16 14:31:39
+tonhowtf/omniget,"Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",258,322,2026-09-16 14:31:39
+earendil-works/pi,"AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",458,572,2026-09-16 14:31:39

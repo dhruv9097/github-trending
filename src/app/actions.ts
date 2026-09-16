@@ -10,11 +10,13 @@ const execPromise = promisify(exec);
 
 export async function syncGithubData() {
   try {
-    // 1. Define the specific Python path in your .venv folder
-    const pythonPath = path.join(os.homedir(), 'Documents/github-dashboard/.venv/bin/python');
-    
-    // 2. Define the script path
-    const scriptPath = path.join(os.homedir(), 'Documents/github-dashboard/fetch_repos.py');
+    // 1. Python interpreter: the repo's own .venv, overridable via PYTHON_BIN
+    const repoRoot = process.cwd();
+    const pythonPath =
+      process.env.PYTHON_BIN ?? path.join(repoRoot, '.venv', 'bin', 'python');
+
+    // 2. The scraper lives at the repo root
+    const scriptPath = path.join(repoRoot, 'fetch_repos.py');
 
     console.log(`Running: ${pythonPath} ${scriptPath}`); // Debug log
 

@@ -51,7 +51,12 @@ def fetch_today_trending():
             })
 
         # --- SAVE TO CSV ---
-        save_path = '/Users/dhruv/Documents/github-dashboard/public/data.csv'
+        # Resolve relative to this file so the script works from any checkout.
+        # Override with DATA_CSV_PATH if you want it somewhere else.
+        repo_root = os.path.dirname(os.path.abspath(__file__))
+        save_path = os.environ.get(
+            "DATA_CSV_PATH", os.path.join(repo_root, "public", "data.csv")
+        )
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
         
         df = pd.DataFrame(repos_data)
